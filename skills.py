@@ -52,6 +52,12 @@ def print_indexes(my_list):
     """
     for i in range(len(my_list)):
         print "%s %s" % (i, my_list[i])
+        
+        
+# ALTERNATIVE SOLUTION
+    
+#   for i, item in enumerate(my_list):
+# 	    print i, item
 
 
 def long_words(word_list):
