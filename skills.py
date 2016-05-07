@@ -198,6 +198,13 @@ def mult_numbers(number_list):
         for num in number_list:
             result = result * num
         return result
+        
+    # ALTERNATIVE SOLUTION
+    
+    # if not number_list:
+    #     return 1
+    # else:
+    #     return reduce(lambda x, y: x*y, number_list)
 
 
 def join_strings(word_list):
@@ -223,7 +230,13 @@ def join_strings(word_list):
         for word in word_list:
             new_string = new_string + word
         return new_string
-
+        
+    # ALTERNATIVE SOLUTION
+    
+    # if not word_list:
+    #     return ""
+    # else:
+    #     return reduce(lambda x,y: x+y, ["spam", "spam", "bacon", "balloonicorn"])
 
 def average(number_list):
     """Return the average (mean) of the list of numbers given.
